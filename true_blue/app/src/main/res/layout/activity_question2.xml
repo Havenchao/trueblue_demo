@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".LoginActivity">
+
+    <!-- Login progress -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Question 2"
+        android:textSize="18sp" />
+
+    <ScrollView
+        android:id="@+id/question2"
+        android:layout_width="398dp"
+        android:layout_height="192dp"
+        android:layout_marginTop="25dp"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/trivia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/my_border"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="381dp"
+                android:layout_height="145dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:text="Bruce Banner turns into what fictional superhero when he becomes angry?"
+                android:textSize="18sp"
+                tools:text="Bruce Banner turns into what fictional superhero when he becomes angry?" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/answers2"
+        android:layout_width="411dp"
+        android:layout_height="454dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/spiderman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Spiderman" />
+
+        <Button
+            android:id="@+id/superman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Superman" />
+
+        <Button
+            android:id="@+id/correct_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Hulk" />
+
+        <Button
+            android:id="@+id/deadpool"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Deadpool" />
+    </LinearLayout>
+
+
+</LinearLayout>
